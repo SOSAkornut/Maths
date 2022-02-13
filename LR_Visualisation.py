@@ -7,34 +7,6 @@ import pandas as pd
 root = Tk();
 root.configure(background="black");
 root.title("Linear_Regression_Visualisation");
-print("  ________________________");
-print(" //-----------------------\\\\ ");
-print("//-------------------------\\\\ ");
-print("||-------------------------||");
-print("||-------------------------|| ");
-print("||---###-------------###---|| ");
-print("||---####-----------####---|| ");              
-print("||----#####-------#####----|| ");
-print("||------####-----####------|| ");
-print("||-------------------------|| ");
-print("\\\\-------------------------// ");
-print(" \\\\-----------------------// ");
-print("  \\\\---------------------//");
-print("   \\\\-------------------// ");
-print("    \\\\-----------------// ");
-print("     \\\\---------------//");
-print("      \\\\-------------// ");
-print("       \\\\___________// ");
-
-print(" ");
-print("||\\\\    //||   //--\\\\   ||=\\\\  ||==         ||==\\\\  \\\\//");
-print("|| \\\\  // ||  //____\\\\  || ||  ||==         ||==||   ||");
-print("||  \\\\//  || //      \\\\ ||=//  ||==         ||==//   ||");
-
-print("  //==== \\\\//  ||==\\\\  //==\\\\  ||\\\\    //|| ||\\\\    //||   //--\\\\   //== ====== ||== ||==\\\\");
-print("  ||      ||   ||__//  ||  ||  || \\\\  // || || \\\\  // ||  //____\\\\  \\\\__   ||   ||== ||__//    ");
-print("  \\\\===   ||   ||  \\\\  \\\\==//  ||  \\\\//  || ||  \\\\//  || //      \\\\ __//   ||   ||== ||  \\\\");
-print("WARNING: This may not plot an accurate linear regression graph, this is just a basic program for visualising data with linear regression. It may update in the future.")
 
 heading = Label(root, text="Linear regression visualisation ", background="black", foreground="white", font="Bold 20");
 heading.grid(row=0, column=0);
